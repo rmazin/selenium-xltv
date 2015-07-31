@@ -43,7 +43,7 @@ public class JenkinsHomepage {
 	       String expectedTitle = "Dashboard [Jenkins]";
 	       String actualTitle = driver.getTitle();
 	       Assert.assertEquals(expectedTitle,actualTitle);
-	
+	        System.out.println("actualTitle");
            //close the web browser
 	       driver.close();
 	}
