@@ -38,9 +38,9 @@ public class JenkinsHomepage {
 		} 
  	 
 	@Test
-	public void Step1XlReleaseLogin() {
+	public void Step1JenkinsTitle() {
 		
-		   String expectedTitle = "Dashboard [Jenkins]";
+	       String expectedTitle = "Dashboard [Jenkins]";
 	       String actualTitle = driver.getTitle();
 	       Assert.assertEquals(expectedTitle,actualTitle);
 	
