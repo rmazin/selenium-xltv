@@ -1,6 +1,6 @@
 
 
-package XlReleaseLogin;
+package JenkinsTests;
 
 import static org.junit.Assert.*;
 
