@@ -35,7 +35,7 @@ public class JenkinsHomepage {
  		driver.get("http://localhost:8080");
  		WebDriverWait wait1 = new WebDriverWait(driver, 15);
 	    //wait1.until(ExpectedConditions.visibilityOfElementLocated(By.id("main-panel-content")));
-	    wait1.until(ExpectedConditions.visibilityOfElementLocated(By.id("jenkins")));
+	    wait1.until(ExpectedConditions.visibilityOfElementLocated(By.id("tt")));
 		} 
  	 
 	@Test
