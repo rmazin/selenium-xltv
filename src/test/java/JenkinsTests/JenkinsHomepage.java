@@ -32,7 +32,7 @@ public class JenkinsHomepage {
  	@BeforeClass
 	public static void openBrowser(){
  		driver = new FirefoxDriver();
- 		driver.get("http://localhost:8080/jenkins");
+ 		driver.get("http://localhost:8080");
  		WebDriverWait wait1 = new WebDriverWait(driver, 15);
 	    wait1.until(ExpectedConditions.visibilityOfElementLocated(By.id("main-panel-content")));
 		} 
