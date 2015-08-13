@@ -40,7 +40,7 @@ public class XlDeployLogin {
 	@Test
 	public void Step1XlDeployLogin() {
 		
-		   String expectedTitle = "XL Deploy";
+		   String expectedTitle = "XL Deploy by XebiaLabs";
 	       String actualTitle = driver.getTitle();
 	       Assert.assertEquals(expectedTitle,actualTitle);
 	       WebElement element = driver.findElement(By.id("inputLogin"));
